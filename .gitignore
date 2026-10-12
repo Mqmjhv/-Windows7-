@@ -1,5 +1,13 @@
-# Object file
-*.o
+# 构建产物
+*.apk
+*.apk.idsig
+out/
 
-# Ada Library Information
-*.ali
+# 签名密钥（勿提交）
+*.keystore
+*.jks
+*.key
+
+# 系统文件
+.DS_Store
+Thumbs.db
